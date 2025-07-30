@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom"
+import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Buycredit from "./pages/Buycredit"
 import Home from "./pages/Home"
@@ -16,6 +17,7 @@ const App = () => {
         
         
       </Routes>
+      <Footer/>
       
       
     </div>
